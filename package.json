@@ -4,7 +4,8 @@
   "description": "Lambda function for executing pg_dump and streaming the output to s3.",
   "main": "index.js",
   "dependencies": {
-    "moment": "2.29.1"
+    "moment": "2.29.1",
+    "node-fetch": "^3.1.0"
   },
   "devDependencies": {
     "aws-sdk": "2.925.0",
